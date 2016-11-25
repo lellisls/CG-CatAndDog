@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1403844616 source:/home/lellis/Desktop/Lellis_Joas/Projeto/main.c
+	<stdio.h>
+	"inc/scene.h"
+	"inc/Light.h"
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"math.h"
+	"time.h"
+
+1403802692 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/scene.h
+	"Object.h"
+	"Dog.h"
+	"Cat.h"
+	"wall.h"
+	"Camera.h"
+	"BMPImage.h"
+
+1403791917 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Object.h
+	<GL/gl.h>
+	<GL/glut.h>
+	"3DTransforms.h"
+
+1403567262 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/3DTransforms.h
+	<GL/gl.h>
+	"Pt3D.h"
+
+1403560699 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Pt3D.h
+	"GL/gl.h"
+
+1403792520 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Dog.h
+	"Leg.h"
+	"Cat.h"
+
+1403555326 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Leg.h
+	"Object.h"
+
+1403792448 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Cat.h
+	"Leg.h"
+
+1403555327 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/wall.h
+	"Object.h"
+
+1403642804 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Camera.h
+	"Cat.h"
+	"Dog.h"
+
+1403675103 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/BMPImage.h
+
+1403760944 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Light.h
+	"Pt3D.h"
+
+1403567229 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/3DTransforms.c
+	"../inc/3DTransforms.h"
+	"math.h"
+	"stdio.h"
+	"stdlib.h"
+
+1403845462 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/BMPImage.c
+	"../inc/BMPImage.h"
+	"stdio.h"
+	"stdlib.h"
+
+1403800827 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Camera.c
+	"../inc/Camera.h"
+
+1403793673 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Cat.c
+	"../inc/Cat.h"
+	"stdlib.h"
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	"math.h"
+
+1403797231 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Dog.c
+	"../inc/Dog.h"
+	"stdlib.h"
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	"math.h"
+
+1403578273 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Leg.c
+	"../inc/Leg.h"
+	"stdlib.h"
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	"math.h"
+
+1403761095 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Light.c
+	"../inc/Light.h"
+
+1403555329 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Matrix.c
+	"stdlib.h"
+	"../inc/Matrix.h"
+	"math.h"
+	"stdio.h"
+
+1403555327 /home/lellis/Desktop/Lellis_Joas/Projeto/inc/Matrix.h
+
+1403792911 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Object.c
+	"../inc/Object.h"
+	"stdio.h"
+	"math.h"
+
+1403572053 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/Pt3D.c
+	"../inc/Pt3D.h"
+	"stdlib.h"
+	"stdio.h"
+	"math.h"
+
+1403810965 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/scene.c
+	"../inc/scene.h"
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	"math.h"
+	"stdio.h"
+	"../inc/Matrix.h"
+	"../inc/Light.h"
+
+1403555329 source:/home/lellis/Desktop/Lellis_Joas/Projeto/src/wall.c
+	"../inc/wall.h"
+
